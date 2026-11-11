@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Dataset (jangan di-upload, ukurannya besar)
+dataset/
+dataset_sawit.zip
+raw_dataset/
+split_dataset/
+*.zip
+
+# Model hasil training (upload lewat GitHub Releases / Git LFS)
+*.h5
+*.keras
+*.weights.h5
+saved_model/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
